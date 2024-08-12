@@ -47,4 +47,8 @@ POST request with URL : http://localhost:18080/v1/accounts/transfer
 Sample response : Insufficient Amount in Account id abc!
 
 
-B. Additional action to be considered for better security can be implemented with integration of JWT token for request authentication and authorization.
+B. Additional action to be considered for production ready application,
+ - Better security can be implemented with integration of JWT token for request authentication and authorization.
+ - Cross-cutting concerns like logging and notification can be better managed with Spring AOP.
+ - Centralized exception handling can be achienved @ControllerAdvice and @ExceptionHandler.
+ - Application monitroing can be better managed with Spring Actuators.
