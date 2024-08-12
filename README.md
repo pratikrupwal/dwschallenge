@@ -46,6 +46,7 @@ POST request with URL : http://localhost:18080/v1/accounts/transfer
 }
 Sample response : Insufficient Amount in Account id abc!
 
+6. 2 tests are added to verify a valid transfer and invalid amount failed transfer in AccountControllerTest.java file.
 
 B. Additional action to be considered for production ready application,
  - Better security can be implemented with integration of JWT token for request authentication and authorization.
